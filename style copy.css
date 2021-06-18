@@ -43,7 +43,7 @@ h1.logo_title img {
 #gnb > ul > li {
   float: left;
   width: 100px;
-  padding: 5px 0;
+  padding: 20px;
   /* outline: 1px solid green; */
   font-size: 14px;
   text-align: center;
@@ -121,20 +121,24 @@ section {
   background-attachment: fixed;
 }
 
-#키키, #센과치히로, #토토로 {
+#kiki, #chihiro, #totoro {
   background-image: url(./images/bg1.jpg);
   background-attachment: fixed;
+
  
 }
 
 .section_nav{
-  margin-top: 2em;
+  padding-top: 
 }
 .section_nav > ul > li {
   display: inline-block;
   color: #fff;
 }
-
+h1{
+  font-size: 40px;
+  color: white;
+}
 .section_nav > ul > li > a {
   color: #fff;
 }
@@ -145,16 +149,16 @@ section {
   font-size: 13px;
   color: rgba(255,255,255,0.75);
 }
-
 .section_group {
-  /* outline: 2px solid red; */
-  padding-top: 0px;
+
+  padding-top: 70px;
   padding-bottom: 50px;
 }
-#main_footer{
+#main_footer {
   background: #363636;
   color: #9b9b9b;
-  height: 50px;
+  height: 100px;
+  padding-bottom: 0px;
   }
 #main_fooer a {
   color: #9b9b9b;
@@ -170,8 +174,9 @@ section {
   margin-left: 10px;
 }
 .right{
-  float: right;
-  margin-top: 26px;
+    margin-top: 26px;
+    text-align: right;
+  
 }
 .footer_nav > li {
   display: inline-block;
@@ -183,4 +188,31 @@ section {
 .footer_logo {
   vertical-align: middle;
   margin-top: 1em;
+}
+.section_group > .title {
+  
+  float: right;
+  width: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section_group > .pic {
+ 
+  float: left;
+  width: 50%;
+}
+.section_group > .pic2 {
+  float: right;
+ 
+  width: 50%;
+
+
+}
+.section_group > .title2 {
+  float: left;
+ 
+  width: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
 }
